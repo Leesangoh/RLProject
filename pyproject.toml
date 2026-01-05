@@ -2,7 +2,7 @@
 name = "rlproject"
 version = "0.1.0"
 description = "Placeholder RL study tracks for Atari, Pykachu volleyball, and Omok."
-authors = ["leesangoh <todo@example.com>"]
+authors = [{name = "leesangoh", email = "todo@example.com"}]
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [

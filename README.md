@@ -1,6 +1,6 @@
 # RLProject
 
-간단한 RL 학습 트랙(Atari DQN, Pykachu volleyball, Omok)을 실험용으로 모아둔 플레이스홀더 리포지토리입니다. 실제 구현은 비어 있으며, English keywords: reinforcement learning, DQN, Gymnasium, reproducibility, baseline scaffolding.
+Lightweight reinforcement learning study tracks (Atari DQN, Pykachu volleyball, Omok) with placeholder code only. This repo is a scaffold for experiments; all Python files are TODO-only. Keywords: reinforcement learning, DQN, Gymnasium, reproducibility, baseline scaffolding.
 
 ## Quickstart
 - Setup: `python -m venv .venv && source .venv/bin/activate && pip install -e .`
