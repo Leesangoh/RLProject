@@ -12,16 +12,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Conda
+        uses: conda-incubator/setup-miniconda@v3
         with:
+          auto-activate-base: false
+          activate-environment: rlproject
           python-version: "3.11"
-      - name: Install project
+      - name: Install project (editable)
         run: |
-          python -m venv .venv
-          source .venv/bin/activate
-          pip install -e .
+          conda install -n rlproject pip -y
+          conda run -n rlproject pip install -e .
       - name: Run placeholder tests
         run: |
-          source .venv/bin/activate
-          echo "TODO: add pytest once implementations exist"
+          conda run -n rlproject echo "TODO: add pytest once implementations exist"

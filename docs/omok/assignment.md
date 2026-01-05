@@ -17,7 +17,8 @@ The Omok track is an assignment for grid-based board-game environments focusing 
 - Observation: board state as numpy array or flattened vector
 
 # Setup
-- Virtualenv: `python -m venv .venv && source .venv/bin/activate`
+- Conda env: `conda create -n rlproject python=3.11 -y && conda activate rlproject`
+- Or: `conda env create -f environment.yml && conda activate rlproject`
 - Install dependencies: `pip install -e .`
 - Placeholder run: `python projects/omok/train.py`
 

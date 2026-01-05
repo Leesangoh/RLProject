@@ -1,7 +1,7 @@
 .PHONY: setup lint test clean
 
 setup:
-	@echo "TODO: set up virtualenv and install dependencies"
+	@echo "TODO: create/activate conda env (rlproject) and install dependencies"
 
 lint:
 	@echo "TODO: add lint commands (ruff/black/pylint)"

@@ -1,0 +1,9 @@
+name: rlproject
+dependencies:
+  - python=3.11
+  - pip
+  - numpy>=1.26.0
+  - pyyaml>=6.0
+  - pip:
+      - gymnasium>=0.29.0
+      - torch>=2.1.0

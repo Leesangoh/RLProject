@@ -18,7 +18,8 @@ The Atari DQN track is a hands-on assignment for building a classic Deep Q-Netwo
 - Env init/reset/step logic is TODO (reference: https://ysl-iras.tistory.com/entry/Deep-RL-Course-DQN-%EC%8B%A4%EC%8A%B5-Atari-%EA%B2%8C%EC%9E%84)
 
 # Setup
-- Virtualenv: `python -m venv .venv && source .venv/bin/activate`
+- Conda env: `conda create -n rlproject python=3.11 -y && conda activate rlproject`
+- Or: `conda env create -f environment.yml && conda activate rlproject`
 - Dependencies: `pip install -e .`
 - Placeholder run: `python projects/atari_dqn/train.py`
 

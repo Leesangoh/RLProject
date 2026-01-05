@@ -4,8 +4,9 @@ This repository only provides skeletons for RL study tracks. Every implementatio
 
 ## Environment
 - Python 3.9+
-- Recommended: `python -m venv .venv && source .venv/bin/activate`
-- Install: `pip install -e .`
+- Recommended (Conda): `conda create -n rlproject python=3.11 -y && conda activate rlproject`
+- Or use the env file: `conda env create -f environment.yml && conda activate rlproject`
+- Install project editable: `pip install -e .`
 
 ## Structure
 - Atari DQN: `projects/atari_dqn/`

@@ -3,7 +3,8 @@
 Lightweight reinforcement learning study tracks (Atari DQN, Pykachu volleyball, Omok) with placeholder code only. This repo is a scaffold for experiments; all Python files are TODO-only. Keywords: reinforcement learning, DQN, Gymnasium, reproducibility, baseline scaffolding.
 
 ## Quickstart
-- Setup: `python -m venv .venv && source .venv/bin/activate && pip install -e .`
+- Setup (Conda): `conda create -n rlproject python=3.11 -y && conda activate rlproject && pip install -e .`
+- Alternative: `conda env create -f environment.yml && conda activate rlproject && pip install -e .`
 - Atari placeholder run: `python projects/atari_dqn/train.py`
 - Pykachu volleyball placeholder run: `python projects/pykachu_volleyball/train.py`
 - Omok placeholder run: `python projects/omok/train.py`
